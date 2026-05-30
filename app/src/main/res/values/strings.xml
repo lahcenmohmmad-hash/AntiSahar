@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Anti-Sahar</string>
+    <string name="admin_label">Anti-Sahar Protection</string>
+    <string name="admin_description">Prevents uninstalling the app during scheduled lock periods to help you keep your sleep goal.</string>
+    <string name="accessibility_label">Anti-Sahar Lock Service</string>
+    <string name="accessibility_description">Used to block selected apps and prevent uninstalling Anti-Sahar during the lock window.</string>
+    <string name="accessibility_summary">Helps enforce your sleep schedule.</string>
+
+    <string name="welcome_title">Sleep better, gradually.</string>
+    <string name="welcome_subtitle">Anti-Sahar lowers your bedtime slowly each day until you reach a healthy schedule, and blocks distracting apps when it\'s time to sleep.</string>
+    <string name="get_started">Get started</string>
+
+    <string name="first_run_title">Welcome — set your plan</string>
+    <string name="setup_title">Plan your sleep</string>
+    <string name="tap_to_pick">— : — (tap to pick)</string>
+    <string name="current_bedtime">When do you sleep now? (your current bedtime)</string>
+    <string name="target_bedtime">When do you want to sleep? (your goal)</string>
+    <string name="daily_step">Daily step (minutes earlier each day)</string>
+    <string name="daily_step_hint">Tip: 1–3 minutes is invisible to your body. Magic happens slowly.</string>
+    <string name="lock_duration">Lock duration after bedtime (hours)</string>
+    <string name="pick_time">Pick time</string>
+    <string name="save_plan">Save plan</string>
+    <string name="estimate_days">≈ %1$d days to reach your goal</string>
+    <string name="estimate_invalid">Target must be earlier than current bedtime.</string>
+    <string name="estimate_pick_first">Pick both times to see the plan duration.</string>
+
+    <string name="error_pick_current">Please pick your current bedtime first.</string>
+    <string name="error_pick_target">Please pick your target bedtime.</string>
+
+    <string name="dashboard_today_bedtime">Tonight\'s bedtime</string>
+    <string name="dashboard_target">Target</string>
+    <string name="dashboard_progress">Progress</string>
+    <string name="dashboard_lock_until">Locked until</string>
+
+    <string name="permissions_title">Permissions needed</string>
+    <string name="perm_device_admin">Device Admin (prevents uninstall)</string>
+    <string name="perm_accessibility">Accessibility (enforce lock)</string>
+    <string name="perm_usage">Usage Access (detect open apps)</string>
+    <string name="perm_overlay">Display over other apps</string>
+    <string name="perm_battery">Ignore battery optimizations</string>
+    <string name="perm_autostart">Auto-start &amp; background lock</string>
+    <string name="perm_autostart_oem">Auto-start on %1$s (CRITICAL)</string>
+    <string name="autostart_toast">Find Anti-Sahar in the list and ENABLE all toggles.</string>
+    <string name="autostart_fallback">Open Battery → set to Unrestricted. Open Permissions → enable everything.</string>
+    <string name="open">Open</string>
+    <string name="grant">Grant</string>
+    <string name="granted">Granted ✓</string>
+
+    <string name="pick_apps">Choose apps to block</string>
+    <string name="apps_selected">%1$d apps selected</string>
+    <string name="locked_message">It\'s time to sleep 🌙</string>
+    <string name="locked_sub">This app is blocked until %1$s. Goodnight.</string>
+    <string name="notif_channel_name">Anti-Sahar status</string>
+    <string name="notif_persistent_channel">Sleep guard (always on)</string>
+    <string name="notif_persistent_desc">Keeps the sleep guard alive in the background so your phone OS does not kill it.</string>
+    <string name="notif_persistent_text">Sleep guard is protecting your schedule.</string>
+    <string name="notif_active_title">Sleep guard is active</string>
+    <string name="notif_active_text">Tonight\'s bedtime: %1$s</string>
+    <string name="notif_locked_title">Sleep mode on</string>
+    <string name="notif_locked_text">Apps will be unlocked at %1$s</string>
+
+    <string name="open_apps_picker">Choose blocked apps</string>
+    <string name="reset_plan">Reset plan</string>
+    <string name="hours_short">h</string>
+    <string name="minutes_short">m</string>
+
+    <string name="confirm_reset_title">Reset plan?</string>
+    <string name="confirm_reset_msg">This will erase your sleep plan and blocked apps list.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="error_target_after_current">Target time should be earlier than the current bedtime.</string>
+    <string name="error_invalid_step">Daily step must be between 1 and 15 minutes.</string>
+    <string name="error_invalid_lock">Lock duration must be between 1 and 12 hours.</string>
+
+    <string name="cannot_uninstall_now">You can\'t change this while sleep lock is active. Try again after the lock window ends.</string>
+</resources>

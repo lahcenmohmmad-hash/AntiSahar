@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">مضاد السهر</string>
+    <string name="admin_label">حماية مضاد السهر</string>
+    <string name="admin_description">يمنع حذف التطبيق خلال فترات القفل المبرمجة ليساعدك على الالتزام بهدف نومك.</string>
+    <string name="accessibility_label">خدمة قفل مضاد السهر</string>
+    <string name="accessibility_description">تُستخدم لقفل التطبيقات المختارة ومنع حذف مضاد السهر خلال فترة القفل.</string>
+    <string name="accessibility_summary">يساعدك على الالتزام بجدول نومك.</string>
+
+    <string name="welcome_title">نَم بشكل أفضل، تدريجياً.</string>
+    <string name="welcome_subtitle">مضاد السهر يقدّم وقت نومك ببطء كل يوم حتى تصل لجدول صحي، ويقفل التطبيقات المُلهية حين يحين وقت النوم.</string>
+    <string name="get_started">ابدأ</string>
+
+    <string name="first_run_title">مرحباً — اضبط خطتك</string>
+    <string name="setup_title">خطّط لنومك</string>
+    <string name="tap_to_pick">— : — (اضغط للاختيار)</string>
+    <string name="current_bedtime">متى تنام حالياً؟ (وقت نومك الحالي)</string>
+    <string name="target_bedtime">متى تريد أن تنام؟ (هدفك)</string>
+    <string name="daily_step">التقدم اليومي (دقائق أبكر كل يوم)</string>
+    <string name="daily_step_hint">نصيحة: من 1 إلى 3 دقائق لا يشعر بها جسمك. السحر يحدث ببطء.</string>
+    <string name="lock_duration">مدة القفل بعد وقت النوم (ساعات)</string>
+    <string name="pick_time">اختر الوقت</string>
+    <string name="save_plan">حفظ الخطة</string>
+    <string name="estimate_days">≈ %1$d يوم للوصول لهدفك</string>
+    <string name="estimate_invalid">يجب أن يكون الوقت المستهدف أبكر من وقت النوم الحالي.</string>
+    <string name="estimate_pick_first">اختر الوقتين لمعرفة مدة الخطة.</string>
+
+    <string name="error_pick_current">اضغط أولاً لاختيار وقت نومك الحالي.</string>
+    <string name="error_pick_target">اختر وقت نومك المستهدف.</string>
+
+    <string name="dashboard_today_bedtime">وقت النوم الليلة</string>
+    <string name="dashboard_target">الهدف</string>
+    <string name="dashboard_progress">التقدم</string>
+    <string name="dashboard_lock_until">القفل ينتهي عند</string>
+
+    <string name="permissions_title">الصلاحيات المطلوبة</string>
+    <string name="perm_device_admin">مدير الجهاز (يمنع الحذف)</string>
+    <string name="perm_accessibility">إمكانية الوصول (لتفعيل القفل)</string>
+    <string name="perm_usage">إحصائيات الاستخدام (لمعرفة التطبيق المفتوح)</string>
+    <string name="perm_overlay">العرض فوق التطبيقات</string>
+    <string name="perm_battery">تجاهل تحسين البطارية</string>
+    <string name="perm_autostart">التشغيل التلقائي والعمل بالخلفية</string>
+    <string name="perm_autostart_oem">التشغيل التلقائي على %1$s (مهم جداً)</string>
+    <string name="autostart_toast">ابحث عن مضاد السهر في القائمة وفعّل كل المفاتيح.</string>
+    <string name="autostart_fallback">افتح البطارية → اضبطها على بلا قيود. افتح الصلاحيات → فعّل كل شيء.</string>
+    <string name="open">فتح</string>
+    <string name="grant">منح</string>
+    <string name="granted">تم المنح ✓</string>
+
+    <string name="pick_apps">اختر التطبيقات التي ستُقفل</string>
+    <string name="apps_selected">%1$d تطبيقاً مختاراً</string>
+    <string name="locked_message">حان وقت النوم 🌙</string>
+    <string name="locked_sub">هذا التطبيق مقفل حتى %1$s. تصبح على خير.</string>
+    <string name="notif_channel_name">حالة مضاد السهر</string>
+    <string name="notif_persistent_channel">حارس النوم (دائم)</string>
+    <string name="notif_persistent_desc">يُبقي حارس النوم نشطاً في الخلفية حتى لا يقتله نظام هاتفك.</string>
+    <string name="notif_persistent_text">حارس النوم يحمي جدولك.</string>
+    <string name="notif_active_title">حارس النوم نشط</string>
+    <string name="notif_active_text">وقت النوم الليلة: %1$s</string>
+    <string name="notif_locked_title">وضع النوم مُفعّل</string>
+    <string name="notif_locked_text">سيُفتح القفل عند %1$s</string>
+
+    <string name="open_apps_picker">اختر التطبيقات المحظورة</string>
+    <string name="reset_plan">إعادة ضبط الخطة</string>
+    <string name="hours_short">س</string>
+    <string name="minutes_short">د</string>
+
+    <string name="confirm_reset_title">إعادة ضبط الخطة؟</string>
+    <string name="confirm_reset_msg">سيتم مسح خطتك وقائمة التطبيقات المحظورة.</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="error_target_after_current">يجب أن يكون الوقت المستهدف أبكر من وقت النوم الحالي.</string>
+    <string name="error_invalid_step">التقدم اليومي يجب أن يكون بين 1 و 15 دقيقة.</string>
+    <string name="error_invalid_lock">مدة القفل يجب أن تكون بين 1 و 12 ساعة.</string>
+
+    <string name="cannot_uninstall_now">لا يمكنك تغيير هذا أثناء فترة قفل النوم. حاول بعد انتهاء فترة القفل.</string>
+</resources>
