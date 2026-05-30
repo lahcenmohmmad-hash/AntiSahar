@@ -1,4 +1,4 @@
-package com.antisahar.app.service;
+﻿package com.antisahar.app.service;
 
 import android.app.AlarmManager;
 import android.app.Notification;
@@ -20,6 +20,7 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
 import com.antisahar.app.MainActivity;
+import com.antisahar.app.receiver.ServiceRestarterReceiver;
 import com.antisahar.app.R;
 import com.antisahar.app.data.Prefs;
 import com.antisahar.app.util.TimeUtil;
@@ -223,3 +224,4 @@ public class ForegroundLockService extends Service {
         } catch (Exception ignored) {}
     }
 }
+
