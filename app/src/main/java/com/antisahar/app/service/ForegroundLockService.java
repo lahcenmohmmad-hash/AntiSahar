@@ -1,4 +1,4 @@
-﻿package com.antisahar.app.service;
+package com.antisahar.app.service;
 
 import android.app.AlarmManager;
 import android.app.Notification;
